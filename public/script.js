@@ -1,12 +1,13 @@
 let usName = document.getElementById('name');
-let usAge = document.getElementById('age');
+let usEmail = document.getElementById('email');
+let usPassword = document.getElementById('password');
 
 async function sendData() {
-    await fetch("http://localhost:3000/addInfo&quot"), {
+    await fetch("addName"), {
     method: "POST",
     headers: {
     "Content-Type": "application/json"
     },
-    body: JSON.stringify({surname:name.value, age:age.value})
-    })
+    body: JSON.stringify({name:usName.value, email:usEmail.value, password:usPassword.value})
     }
+}

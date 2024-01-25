@@ -9,8 +9,9 @@
 <body>
 
     <form action="/addName" method="post">
-        <input type="text" onkeydown="changeVal()" id="name" required name="name" class="inp" placeholder="Please type your name"><br><br>
-        <input type="number" class="inp" name="age" id="age" placeholder="Please type your age"><br><br>
+        <input type="text" onkeydown="sendData()" id="name" required name="name" class="inp" placeholder="Please type your name"><br><br>
+        <input type="email" class="inp" name="email" id="email" placeholder="Please type your email"><br><br>
+        <input type="password" class="inp" name="password" id="password" placeholder="Please type your password"><br><br>
         <input type="submit" onclick="sendData()" class="inp">
     </form>
 
