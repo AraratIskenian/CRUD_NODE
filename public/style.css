@@ -3,6 +3,36 @@ body{
 }
 
 .inp{
-    border-radius: 10px;
+    border-radius: 6px;
     padding: 5px;
+}
+
+.submit{
+    border-radius: 6px;
+    padding: 5px;
+}
+
+table tr td{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.update{
+    background-color: green;
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    color: white;
+}
+.delete{
+    background-color: red;
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 10px;
+    width: 100px;
+    padding: 5px;
+    color: white;
 }

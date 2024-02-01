@@ -1,6 +1,7 @@
-let usName = document.getElementById('name');
-let usEmail = document.getElementById('email');
-let usPassword = document.getElementById('password');
+let prName = document.getElementById('name');
+let prPrice = document.getElementById('price');
+let prDes = document.getElementById('des');
+let prImg = document.getElementById('img');
 
 async function sendData() {
     await fetch("addName"), {
@@ -8,6 +9,6 @@ async function sendData() {
     headers: {
     "Content-Type": "application/json"
     },
-    body: JSON.stringify({name:usName.value, email:usEmail.value, password:usPassword.value})
+    body: JSON.stringify({name:prName.value, price:prPrice.value, description:prDes.value, img:prImg.value})
     }
 }
